@@ -44,7 +44,7 @@ public class LoanCalculatorServiceTest {
      * @throws Exception
      */
 	@Test
-	public void testCalculateSimpleLoanAndSave() throws Exception {
+	public void testCalculateSimpleLoanAndSaveService() throws Exception {
 		Loan loan = new Loan();
 		//setup dummy object
 		loan.setAnnualInterestPercent(5.0);
@@ -75,7 +75,7 @@ public class LoanCalculatorServiceTest {
 	 * @throws Exception
 	 */
 	@Test
-	public void testCalculateAdvancedLoanAndSaveController() throws Exception {
+	public void testCalculateAdvancedLoanAndSaveService() throws Exception {
 		Loan loan = new Loan();
 		//setup dummy object
 		loan.setAnnualInterestPercent(5.0);
